@@ -1,0 +1,151 @@
+/*
+Theme Name: My Theme - Sacon 
+
+Theme URI: https://www.shriasys.com
+
+Author: Srihari-TamilSelvan
+
+Author URI: https://shriasys.com/
+
+Description: My Theme - Responsive Bootstrap Theme.
+
+Version: 2.0
+*/
+@import url('bootstrap/css/bootstrap.css');
+@import url('bootstrap/css/style.css');
+@import url('bootstrap/css/i-hover.css');
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+#nav_menu-7, #nav_menu-4, #nav_menu-6, #nav_menu-8, #nav_menu-9, #nav_menu-10, #nav_menu-11, #nav_menu-12, #nav_menu-13, #nav_menu-14, #nav_menu-15
+{
+background-color:#53be74;
+}
+#nav_menu-7 h1, #nav_menu-4 h1, #nav_menu-6 h1, #nav_menu-8 h1, #nav_menu-9 h1, #nav_menu-10 h1, #nav_menu-11 h1, #nav_menu-12 h1, #nav_menu-13 h1, #nav_menu-14 h1, #nav_menu-15 h1
+{
+font-size:26px;
+padding-top:6px;
+padding-left:5px;
+}
+#nav_menu-7 a, #nav_menu-4 a, #nav_menu-6 a, #nav_menu-8 a, #nav_menu-9 a, #nav_menu-10 a, #nav_menu-11 a, #nav_menu-12 a, #nav_menu-13 a, #nav_menu-14 a, #nav_menu-15 a
+{
+color:#000;
+padding-left:25px;
+text-decoration:none;
+display: block;
+}
+.dropdown-menu
+{
+	background-color:#870303;
+}
+.dropdown-menu > li > a
+{
+	color:#fff;
+	border-bottom:2px solid #870303;
+}
+.dropdown-menu > li > a:hover
+{
+	background-color:#870303;
+	border-bottom:2px solid #cb5a30;
+	color:#ffe4ab;
+
+}
+#nav_menu-7 a:hover, #nav_menu-4 a:hover, #nav_menu-6 a:hover, #nav_menu-8 a:hover, #nav_menu-9 a:hover, #nav_menu-10 a:hover, #nav_menu-11 a:hover, #nav_menu-12 a:hover, #nav_menu-13 a:hover, #nav_menu-14 a:hover, #nav_menu-15 a:hover
+{
+//color:#870303;
+background-color:#cb5a30;
+color:#fff;
+}
+#nav_menu-7 ul li, #nav_menu-4 ul li, #nav_menu-6 ul li, #nav_menu-8 ul li, #nav_menu-9 ul li, #nav_menu-10 ul li, #nav_menu-11 ul li, #nav_menu-12 ul li, #nav_menu-13 ul li, #nav_menu-14 ul li, #nav_menu-15 ul li
+{
+list-style:none;
+line-height:40px;
+border-bottom:1px solid #cb5a30;
+}
+#nav_menu-7 ul li:hover, #nav_menu-4 ul li:hover, #nav_menu-6 ul li:hover, #nav_menu-8 ul li:hover, #nav_menu-9 ul li:hover, #nav_menu-10 ul li:hover, #nav_menu-11 ul li:hover, #nav_menu-12 ul li:hover, #nav_menu-13 ul li:hover, #nav_menu-14 ul li:hover, #nav_menu-15 ul li:hover
+{
+border-bottom:1px solid #fff;
+}
+#nav_menu-7 ul, #nav_menu-4 ul, #nav_menu-6 ul, #nav_menu-8 ul, #nav_menu-9 ul, #nav_menu-10 ul, #nav_menu-11 ul, #nav_menu-12 ul, #nav_menu-13 ul, #nav_menu-14 ul, #nav_menu-15 ul
+{
+padding-left:0px;
+
+}
+
+@media (min-width: 1100px)
+{
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+}
+@media (min-width: 992px)
+{
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+}
+
+#content-area p::selection {
+    color: #fff;
+    background: #770000;
+}
+#content-area p::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #770000;
+}
+
+::selection {
+    color: #770000;
+    background: #fff;
+}
+::-moz-selection { /* Code for Firefox */
+    color: #770000;
+    background: #fff;
+}
+.staffer-staff-social-links
+{
+	display:inline-block;
+}
+.staffer-staff-social-links span {
+    font-size: 1.5rem;}
+	
+#go-back-cust
+{
+	background-color:#C99;
+	height:150px;
+	color:#000;
+}
+#go-back-cust1
+{
+	margin-top:60px;
+}
+#go-back-title
+{
+	margin-top:20px;
+}
+#go-back-cust1 a
+{
+	color:#000;
+}
+.ih-item.square.effect6 {
+    border: 5px solid #717171;
+    box-shadow: 2px 5px 5px #888888;
+}
+#post-page-cust
+{
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+.page-cust
+{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
